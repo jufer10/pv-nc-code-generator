@@ -1,0 +1,42 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+*.log.*
+debug.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Docker
+docker-data/
+*.pid
+
+# Editor configs
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Volumes / Cache
+.cache/
+tmp/
+coverage/
+
+# Local dev secrets
+*.local
